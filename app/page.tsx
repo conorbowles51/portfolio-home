@@ -1,5 +1,6 @@
 import AboutMe from '@/components/about-me'
 import Intro from '@/components/intro'
+import Projects from '@/components/projects'
 import SectionDivider from '@/components/section-divider'
 import Image from 'next/image'
 
@@ -9,6 +10,8 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <AboutMe />
+      <SectionDivider />
+      <Projects />
     </main>
   )
 }
