@@ -2,6 +2,7 @@ import AboutMe from '@/components/about-me'
 import Intro from '@/components/intro'
 import Projects from '@/components/projects'
 import SectionDivider from '@/components/section-divider'
+import Skills from '@/components/skills'
 import Image from 'next/image'
 
 export default function Home() {
@@ -12,6 +13,9 @@ export default function Home() {
       <AboutMe />
       <SectionDivider />
       <Projects />
+      <SectionDivider />
+      <Skills />
+      <SectionDivider />
     </main>
   )
 }

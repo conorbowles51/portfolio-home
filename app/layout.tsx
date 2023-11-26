@@ -2,7 +2,7 @@ import Header from '@/components/header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], weight:"400" })
 
 export const metadata = {
   title: 'Conor | Portfolio',
