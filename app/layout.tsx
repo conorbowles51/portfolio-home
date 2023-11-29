@@ -1,6 +1,8 @@
 import Header from '@/components/header'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Toaster } from 'react-hot-toast'
+import Footer from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'], weight:"400" })
 
@@ -22,6 +24,8 @@ export default function RootLayout({
         
         <Header/>
         {children}
+        <Footer />
+        <Toaster position='top-right' />
       </body>
     </html>
   )
