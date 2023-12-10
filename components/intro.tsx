@@ -19,7 +19,7 @@ const Intro = () => {
             animate={{scale: 1}}
           >
             <Image 
-              src="/conorbowles.jpg" 
+              src="/conorbowles.png" 
               alt="Conor Bowles"
               width="192"
               height="192"
